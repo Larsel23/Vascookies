@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vascookies - Galletas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f8f8f5;
+    }
+    header {
+      background-color: #6f8673;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .container {
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .producto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      text-align: center;
+      padding-bottom: 20px;
+      transition: transform 0.2s;
+    }
+    .producto:hover {
+      transform: translateY(-5px);
+    }
+    .producto img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .producto h3 {
+      margin: 10px 0 5px 0;
+      font-size: 18px;
+      color: #333;
+    }
+    .producto p {
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #6f8673;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vascookies</h1>
+    <p>Deliciosas galletas artesanales</p>
+  </header>
+
+  <div class="container">
+    <h2 style="text-align:center;">Galletas</h2>
+    <div class="productos">
+      
+      <div class="producto">
+        <img src="https://via.placeholder.com/220x180.png?text=Macarrones" alt="Macarrones">
+        <h3><!-- Macarrones Sabores Surtidos -->Nombre del producto 1</h3>
+        <p>S/. 17.50</p>
+      </div>
+
+      <div class="producto">
+        <img src="https://via.placeholder.com/220x180.png?text=Brownie" alt="Brownie">
+        <h3><!-- Brownie -->Nombre del producto 2</h3>
+        <p>S/. 10.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="https://via.placeholder.com/220x180.png?text=ChocoChip" alt="ChocoChip">
+        <h3><!-- Galleta Chocochip con Almendras -->Nombre del producto 3</h3>
+        <p>Desde S/. 8.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="https://via.placeholder.com/220x180.png?text=Box+Macarrones" alt="Box Macarrones">
+        <h3><!-- Box Macarrones x16 -->Nombre del producto 4</h3>
+        <p><del>S/. 40.00</del> S/. 32.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="https://via.placeholder.com/220x180.png?text=Galletón+Nutella" alt="Galletón">
+        <h3><!-- Galletón de Nutella -->Nombre del producto 5</h3>
+        <p>S/. 9.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="https://via.placeholder.com/220x180.png?text=Galleta+Pistacho" alt="Galleta Pistacho">
+        <h3><!-- Galleta de Pistacho -->Nombre del producto 6</h3>
+        <p>S/. 9.50</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Vascookies. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
